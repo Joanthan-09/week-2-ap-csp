@@ -37,9 +37,9 @@ print(num1 + num2)
 #  Step 4: User Input Practice
 # Ask the user two questions and combine answers
 
-q1= input("what your favorate color")
-q2= input("what your favorate food")
-combined= ( q1 + " and" + q2 )
+q1= input("what is your favorate color")
+q2= input("what is your favorate food")
+combined= ( q1 + " and " + q2 )
 print("Your answers were " + combined)
 
 
@@ -47,4 +47,8 @@ print("Your answers were " + combined)
 # ⚙️ Step 5: Final Challenge (combine it all)
 # Use math and strings together
 
+num1= int(input(" pick a number"))
+num2= int (input("pick another number"))
+multi= (num1 * num2)
+print(multi)
 
