@@ -37,6 +37,10 @@ print(num1 + num2)
 #  Step 4: User Input Practice
 # Ask the user two questions and combine answers
 
+q1= input("what your favorate color")
+q2= input("what your favorate food")
+combined= ( q1 + " and" + q2 )
+print("Your answers were " + combined)
 
 
 
