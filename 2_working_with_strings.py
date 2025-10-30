@@ -60,6 +60,11 @@ print(chicago_mayor[-1])
 print("First character:", phrase[0])  # Output: P
 print("Last character:", phrase[-1])  # Output: !
 
+
+#upper case it
+#slice cagi out of it
+
+
 # # Slicing: Get a range of characters (start inclusive, end exclusive)
 # print("Characters 1 to 4:", phrase[1:4])  # Output: yth
 
@@ -84,11 +89,11 @@ print("Last character:", phrase[-1])  # Output: !
 # # String Methods
 # # ----------------------------------------
 
-# sentence = "Python is fun to learn"
+sentence = "Python is fun to learn"
 
-# # .split(): Splits the string into a list of words
-# words = sentence.split()
-# print("Split result:", words)
+# .split(): Splits the string into a list of words
+words = sentence.split()
+print("Split result:", words)
 
 # # .format(): Allows inserting values into strings using {}
 # name = "Marvin"
