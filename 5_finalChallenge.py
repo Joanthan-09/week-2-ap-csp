@@ -17,3 +17,17 @@
 # Well, try to do it on your own, and if it gets complicated, don’t worry, we will solve it together in the next lecture.
 
 # Cheers and good luck.
+
+print("Brewery Name Generator")
+print("Let's help your friend find the perfect name for their new beer.")
+print("You will be asked two questions.")
+
+word1 = input("What is your favorite animal? ")
+word2 = input("What is your favorite type of weather? ")
+
+
+beer_name = word1 + " " + word2
+
+print(f"\nYour friend's new beer name is: '{beer_name}'")
+
+

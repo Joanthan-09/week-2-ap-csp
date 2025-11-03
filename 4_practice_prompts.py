@@ -96,7 +96,7 @@ red_beetle_summary= "The film Blue Beetle (2023) follows Jaime Reyes, a recent c
 print(len(red_beetle_summary))
 print("Last character:", red_beetle_summary[-1])
 reversed_string = red_beetle_summary[::-1]
-print(red_beetle_summary)
+print(reversed_string)
 ##########################input practice#############################################
 #input is when we ask the user for input/data
 # Ask the user to enter their name.
